@@ -1,13 +1,4 @@
-"""
-The game of battleship!
 
-This file contains the main logic for the game.  You do not need to know about everything
-in here.  The critical methods you need are in Game, so start with that class and with
-the example code in battleshipAgent.py.  From a Game object, your agent can
-get most of the important probability distributions, board layout information, and so on.
-
-You should not change this file!
-"""
 
 from util import *
 import sys, random
@@ -675,11 +666,4 @@ if __name__ == '__main__':
   game = Game(agentBuilder, layout, numships, sensors, motion)
   game.run()
 
-  
-  # TODO:
-  #   grow margin a little on the right (mine still overflows the text off the window)
-  #   improve comments
-  #   put some big QUESTION 1 markers in comments in the battleshipAgent.py file
-  #   test export and scraper
-  #   options: say what options were invalid if failure
-  #   optional: options package from 2.1 gives more sensible output, including defaults
+ 
